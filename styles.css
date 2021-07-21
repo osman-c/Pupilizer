@@ -1,0 +1,116 @@
+.flex{
+    display: flex;
+}
+
+.left-container{
+    display: flex;
+    padding-top: 2em;
+    min-width: 40%;
+    max-width: 70%;
+    border-style: outset;
+}
+
+.right-container{
+
+    padding-left: 2em;
+}
+
+.top-bar {
+    width: 100%;
+    height: 180px;
+    background-color: gray;
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
+
+.pic-container {
+    width: auto;
+    white-space:nowrap; 
+}
+
+.pic-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    text-align: center;
+    height: 160px;
+}
+
+.active-pic {
+    border: 3px solid #ccc;
+}
+
+.passive-pic {
+    border: 1px solid #ccc;
+}
+
+.pic {
+    width: auto;
+    height: 120px;
+}
+
+.pic-text{
+    display: block;
+    /* vertical-align: middle; */
+}
+
+.svg {
+    width: auto;
+    height: 100%;
+}
+
+.active-line{
+    stroke: red
+}
+
+.passive-line{
+    stroke: gray
+}
+
+.active-label{
+    background-color: yellow;
+}
+
+.passive-label{
+    background-color: white;
+}
+
+.box{
+    fill: white;
+    stroke: black;
+}
+
+.active-move{
+    fill-opacity: 0%;
+    stroke-opacity: 0%;
+    cursor: move;
+    display: block;
+}
+
+.passive-move{
+    display: none;
+}
+
+.active-box{
+    display: block;
+}
+
+.passive-box{
+    display: none;
+}
+
+.er{
+    cursor: e-resize;
+}
+
+.nr{
+    cursor: n-resize;
+}
+
+.ner{
+    cursor: ne-resize;
+}
+
+.nwr{
+    cursor: nw-resize;
+}

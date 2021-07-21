@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Prototype</title>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="pic-container"></div>
+    </div>
+    <div class=flex>
+        <div class="left-container">
+            <svg class="svg" id="svg"></svg>
+        </div>
+        <div class="right-container">
+            <ol id="list"></ol> 
+            <button onClick="AppendList()" >Create Label</button>
+            <button onClick="DeleteLabel()" style="display: none" id="delete">Delete Label</button> 
+        </div>
+    </div> 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="pop.js"></script>
+</html>
